@@ -1,0 +1,45 @@
+*{
+    margin:0.8% 2% 2% 2%;
+    box-sizing: border-box;
+}
+
+#nav{
+    background-color: aquamarine;
+    padding:1% 0.3% 0.3% 0.3%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+#paragraph{
+    margin-top: 5%;
+    padding: 3%;
+    background-color: pink;
+}
+#article{
+    box-sizing: border-box;
+    height: 40vh;
+    width: 80vw;
+}
+#sect{
+    background-color: goldenrod;
+    box-sizing: border-box;
+    width: 40%;
+    height: 80%;
+    padding: 2.3%;
+    display: flex;
+float: right;
+    margin-bottom: 5%;
+
+}
+
+#sect1{
+    margin-top: 10%;
+    height: 100vh;
+    background-color: rgb(236, 232, 232);
+    padding: 2%;
+    
+}
