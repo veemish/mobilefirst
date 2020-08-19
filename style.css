@@ -43,3 +43,23 @@ float: right;
     padding: 2%;
     
 }
+
+
+.image1{
+    justify-self: center;
+    height:196px ;
+    width: 170px;
+ }
+
+
+@media screen and (min-width: 768px ) {
+
+    .image1{
+        justify-self: center;
+        height: 551px;
+        width: 420px;
+    
+    }
+     
+}
+
