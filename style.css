@@ -1,78 +1,70 @@
-*{
-    margin:0.8% 2% 2% 2%;
-    box-sizing: border-box;
+* {
+  margin: 0.8% 2% 2% 2%;
+  box-sizing: border-box;
 }
 
-#nav{
-    background-color: aquamarine;
-    padding:1% 0.3% 0.3% 0.3%;
+#nav {
+  background-color: aquamarine;
+  padding: 1% 0.3% 0.3% 0.3%;
 }
-#navbar{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    
-}
-
-#paragraph{
-    margin-top: 5%;
-    padding: 3%;
-    background-color: pink;
-}
-#article{
-    box-sizing: border-box;
-    height: 40vh;
-    width: 80vw;
-}
-#sect{
-    background-color: goldenrod;
-    box-sizing: border-box;
-    width: 40%;
-    height: 80%;
-    padding: 2.3%;
-    display: flex;
-float: right;
-    margin-bottom: 5%;
-
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
 
-#sect1{
-    margin-top: 10%;
-    height: 100vh;
-    background-color: rgb(236, 232, 232);
-    padding: 2%;
-    
+#paragraph {
+  margin-top: 5%;
+  padding: 3%;
+  background-color: pink;
+}
+#article {
+  box-sizing: border-box;
+  height: 40vh;
+  width: 80vw;
+}
+#sect {
+  background-color: goldenrod;
+  box-sizing: border-box;
+  width: 40%;
+  height: 80%;
+  padding: 2.3%;
+  display: flex;
+  float: right;
+  margin-bottom: 5%;
 }
 
+#sect1 {
+  margin-top: 10%;
+  height: 100vh;
+  background-color: rgb(236, 232, 232);
+  padding: 2%;
+}
 
-.image1{
-    /*justify-self: center;
+.image1 {
+  /*justify-self: center;
     height:196px ; its advisable to use pxs in images rather than using percentages.
     width: 170px;*/
-    width: 70%;
-    display: block;
+  width: 70%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .image1 {
+    height: 551px;
+    width: 420px;
+    /*display:*//*image still displays block even after i have  commented it out. its inheriting the block property from the image1 class above*/ 
+    /*width: 70%;*/
     margin-right: auto;
     margin-left: auto;
- }
+  }
 
-
-@media screen and (min-width: 768px ) {
-    .image1{
-        height: 551px;
-        width: 420px;
-        display: block;
-        /*width: 70%;*/
-        margin-right: auto;
-        margin-left: auto;
-        
-        
-    }
-
-    /*#image1{
+  /*#image1{
         box-sizing: border-box;
          background-color: red;
          padding-left: 20%;
     }
      */
 }
-
