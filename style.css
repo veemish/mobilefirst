@@ -46,20 +46,33 @@ float: right;
 
 
 .image1{
-    justify-self: center;
-    height:196px ;
-    width: 170px;
+    /*justify-self: center;
+    height:196px ; its advisable to use pxs in images rather than using percentages.
+    width: 170px;*/
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
  }
 
 
 @media screen and (min-width: 768px ) {
-
     .image1{
-        justify-self: center;
         height: 551px;
         width: 420px;
-    
+        display: block;
+        /*width: 70%;*/
+        margin-right: auto;
+        margin-left: auto;
+        
+        
     }
-     
+
+    /*#image1{
+        box-sizing: border-box;
+         background-color: red;
+         padding-left: 20%;
+    }
+     */
 }
 
