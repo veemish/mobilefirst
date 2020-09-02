@@ -12,6 +12,7 @@
   justify-content: space-between;
   list-style: none;
 }
+/*
 #nav input{
   display: block;
   width: 2rem;
@@ -79,6 +80,7 @@ transform: rotate(0deg) scale(0.2, 0.2);
 #nav input:checked ~ ul{
   transform: none;
 }
+*/
 #paragraph {
   margin-top: 5%;
   padding: 3%;
